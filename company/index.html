@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contract List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .create-contract-button {
+            background-color: #007BFF;
+            color: #fff;
+            font-size: 24px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        .create-contract-button:hover {
+            background-color: #0056b3;
+        }
+
+        .contract-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .contract-card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px auto;
+            /* Center the card horizontally */
+            max-width: 400px;
+            /* Set a maximum width */
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .contract-name {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .contract-address {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Contract List</h1>
+
+    <button class="create-contract-button">Create a Contract</button>
+
+    <h2>Previously Created Contracts</h2>
+
+    <ul class="contract-list">
+        <li class="contract-card">
+            <p class="contract-name">Contract Name: Example Contract</p>
+            <p class="contract-address">Contract Address: 0x1234567890</p>
+        </li>
+        <li class="contract-card">
+            <p class="contract-name">Contract Name: Another Contract</p>
+            <p class="contract-address">Contract Address: 0x9876543210</p>
+        </li>
+        <li class="contract-card">
+            <p class="contract-name">Contract Name: Sample Contract</p>
+            <p class="contract-address">Contract Address: 0xABCDEF1234</p>
+        </li>
+    </ul>
+</body>
+
+</html>
